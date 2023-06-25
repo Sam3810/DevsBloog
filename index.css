@@ -119,6 +119,76 @@ a {
     color: white;
 }
 
+#a-github {
+    color: rgb(253, 245, 132);
+}
+
+#a-github:hover {
+    opacity: 0.8;
+}
+
+/*Ventana*/
+.ventana__design {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.ventana__design div {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.ventana__design-div1 {
+    background-color: #fe5f57;
+}
+
+.ventana__design-div2 {
+    background-color: #febd2f;
+}
+
+.ventana__design-div3 {
+    background-color: #26c83f;
+}
+
+
+
+/*Articles*/
+.article {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(21, 25, 34);
+    max-width: 800px;
+    margin: auto;
+    transition-duration: 0.3s;
+}
+
+.article:hover {
+    background-color: rgb(19, 22, 31);
+}
+
+.article-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.article img {
+    max-width: 300px;
+    background-color:  white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /*Responsive*/
 @media (max-width: 700px) {
     .abrir-menu, .cerrar-menu {
