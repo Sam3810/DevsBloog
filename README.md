@@ -1,3 +1,4 @@
 # Cocinero's Blog
-<h3>Hello, this is my blog, here I will be posting articles on topics that call my attention and I like, also this is the biggest project I have ever done, with love, I hope you enjoy it 💖</h3>
-![image](https://github.com/Sam3810/Blog/assets/118696492/ec4d716e-f13a-496c-a4b2-b7d6060af1bd)
+<h3>Contribute 👨‍💻</h3>
+<p>You can contribute by correcting the posts or even creating one, you can do this through the pull request, I keep it active, so I'll find out about your pull request as soon as possible, cheer up! 🎆🎇</p>
+<h6>This is my biggest project 🎉</h6>
