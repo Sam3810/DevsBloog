@@ -17,6 +17,10 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    margin: auto 10px 20px 10px;
+}
+
 /*Header*/
 header {
     display: flex;
@@ -88,6 +92,17 @@ a {
     max-width: 1200px;
     padding: 50px 0 15px 0;
     text-align: center;
+}
+
+#div__bienvenida img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 239, 146);
+    transition-duration: 0.3s;
+}
+
+#div__bienvenida img:hover {
+    border: 5px solid rgb(255, 219, 77);
 }
 
 /*Content*/
