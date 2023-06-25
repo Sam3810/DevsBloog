@@ -88,6 +88,8 @@ main {
 
 .abrir-menu, .cerrar-menu {
     display: none;
+    background-color: transparent;
+    border: none;
 }
 
 /*Content*/
