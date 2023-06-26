@@ -108,7 +108,7 @@ h1 {
 }
 
 #div__bienvenida img:hover {
-    border: 5px solid rgb(255, 219, 77);
+    border: 5px solid rgb(255, 222, 90);
 }
 
 /*Content*/
@@ -170,7 +170,7 @@ h1 {
     border-radius: 10px;
     background-color: rgb(21, 25, 34);
     max-width: 750px;
-    margin: auto;
+    margin: 30px auto 20px auto;
     transition-duration: 0.3s;
 }
 
@@ -178,11 +178,9 @@ h1 {
     background-color: rgb(19, 22, 31);
 }
 
-.article img {
+.article-content img {
     width: 100%;
-    height: 100%;
-    background-color:  white;
-    padding: 10px;
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -192,14 +190,14 @@ h1 {
     align-items: center;
     flex-direction: column;
     margin: auto;
-    max-width: 450px;
+    max-width: 400px;
     margin-top: 20px;
     text-align: justify;
     color: white;
 }
 
 .article-content div {
-    max-width: 450px;
+    max-width: 400px;
 }
 
 /*Responsive*/
