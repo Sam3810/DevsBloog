@@ -18,11 +18,7 @@ body {
 }
 
 main {
-    margin: 35px 10px 30px 10px;
-}
-
-p {
-    font-size: 17px;
+    margin: auto 10px 20px 10px;
 }
 
 /*Header*/
@@ -59,10 +55,6 @@ h1 {
     font-size: 30px;
 }
 
-h2 {
-    margin-top: 60px;
-}
-
 .nav__a {
     color: rgb(241, 241, 241);
 }
@@ -89,33 +81,92 @@ h2 {
     border: none;
 }
 
-/*Content*/
-#section__content {
-    margin: auto;
+/*Ventana*/
+.ventana__design {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    width: 100%;
 }
 
-#div__content {
-    color: rgb(241, 241, 241);
+.ventana__design div {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
 
-#div__content a {
+.ventana__design-div1 {
+    background-color: #fe5f57;
+}
+
+.ventana__design-div2 {
+    background-color: #febd2f;
+}
+
+.ventana__design-div3 {
+    background-color: #26c83f;
+}
+
+/*Articles*/
+#a-github {
     color: #fed82f;
 }
 
-#div__content a:hover {
-    opacity: 0.7;
+#a-github:hover {
+    opacity: 0.8;
 }
 
-.image-container img {
-    width: 100%;
+#section__articles {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#div__articles {
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+
+#articles{
+    margin-top: 50px;
+}
+.article {
+    padding: 10px;
     border-radius: 10px;
+    background-color: rgb(21, 25, 34);
+    max-width: 750px;
+    margin: 30px auto 20px auto;
+    transition-duration: 0.3s;
 }
 
-.image-container {
+.article:hover {
+    background-color: rgb(19, 22, 31);
+}
+
+.article-content img {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: justify;
+    color: rgb(241, 241, 241);
+}
+
+.article-content div {
     max-width: 400px;
 }
 
-/*Responsive*/
 @media (max-width: 700px) {
     .abrir-menu, .cerrar-menu {
         display: block;
@@ -148,5 +199,21 @@ h2 {
     ul {
         flex-direction: column;
         align-items: end;
+    }
+
+    .article-content div {
+        max-width: 300px;
+    }
+
+    .article-content {
+        max-width: 300px;
+    }
+
+    .article {
+        max-width: 500px;
+    }
+
+    .article img {
+        padding: 0;
     }
 }

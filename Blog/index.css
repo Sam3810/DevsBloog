@@ -56,7 +56,7 @@ h1 {
 }
 
 .nav__a {
-    color: white;
+    color: rgb(241, 241, 241);
 }
 
 .nav__a:hover {
@@ -86,7 +86,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: auto;
-    color: white;
+    color: rgb(241, 241, 241);
     text-align: center;
     background-color: rgb(26, 31, 41);
     box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.7);
@@ -112,18 +112,6 @@ h1 {
 }
 
 /*Content*/
-#section__articles {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 50px;
-}
-
-#div__articles {
-    text-align: center;
-    color: white;
-}
-
 #a-github {
     color: #fed82f;
 }
@@ -159,11 +147,21 @@ h1 {
     background-color: #26c83f;
 }
 
-
-
 /*Articles*/
+#section__articles {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#div__articles {
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+
 #articles{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .article {
     padding: 10px;
@@ -193,11 +191,57 @@ h1 {
     max-width: 400px;
     margin-top: 20px;
     text-align: justify;
-    color: white;
+    color: rgb(241, 241, 241);
 }
 
 .article-content div {
     max-width: 400px;
+}
+
+/*Categorias*/
+#section-categorias {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: rgb(241, 241, 241);
+    margin: 15px auto 30px auto;
+}
+
+#div-categorias a {
+    display: flex;
+}
+
+#div-categorias div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#div-categorias h2 {
+    text-align: center;
+}
+
+.image-container {
+    max-width: 30px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.button-categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(241, 241, 241);
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.button-categoria:hover {
+    background-color: rgba(33, 42, 53, 0.7);
 }
 
 /*Responsive*/
