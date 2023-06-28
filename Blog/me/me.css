@@ -232,6 +232,17 @@ footer img {
     color: rgb(132, 216, 219);
 }
 
+/*More*/
+#email {
+    color: rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding-bottom: 1px;
+}
+
+#email:hover {
+    border-bottom: 1px solid transparent;
+}
+
 /*Animaciones*/
 @keyframes typing {
     from { width: 0px }
