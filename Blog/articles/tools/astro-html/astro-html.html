@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="category" content="Programacion" />
+    <meta name="author" content="Samuel Vanegas Bueno" />
+    <meta name="audience" content="all" />
+    <meta name="language" content="spanish" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Encuentra las mejores librerias para potenciar tu pagina web."
+    />
+    <meta name="keywords" content="Librerias, Programacion, CSS" />
+    <link rel="stylesheet" href="./astro-html.css" />
+    <link rel="icon" href="/img/me.png" />
+    <title>Guía de migración de HTML a Astro</title>
+  </head>
+  <body>
+    <header>
+      <section id="header__section">
+        <a href="/index.html"
+          ><img id="logo" src="/img/me.png" alt="Logo de Samuel Vanegas Bueno"
+        /></a>
+        <button class="abrir-menu">
+          <img src="/img/menu.svg" alt="Open" />
+        </button>
+        <nav class="nav">
+          <button class="cerrar-menu">
+            <img src="/img/cancel.svg" alt="Close" />
+          </button>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/Sam3810/Blog/edit/main/Blog/articles/tools/astro-html/astro-html.html"
+                class="nav__a"
+                >Edita este articulo</a
+              >
+            </li>
+            <li><a href="/me/me.html" class="nav__a">Sobre mi</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/Sam3810"
+                class="nav__a"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <h2>Paso 1: Configuración inicial</h2>
+        <p>
+          Asegúrate de tener Node.js instalado en tu computadora. Puedes
+          descargarlo desde el sitio web oficial de Node.js e instalarlo
+          siguiendo las instrucciones proporcionadas.
+        </p>
+      </section>
+      <section>
+        <h2>Paso 2: Crear un nuevo proyecto Astro</h2>
+        <p>
+          Abre tu línea de comandos o terminal y crea una nueva carpeta para tu
+          proyecto Astro.
+        </p>
+        <p>Navega hasta la carpeta del proyecto en la línea de comandos.</p>
+        <p>Ejecuta el siguiente comando para crear un nuevo proyecto Astro:</p>
+        <pre><code>npx create-astro nombre-del-proyecto</code></pre>
+        <p>
+          Esto creará una nueva carpeta con el nombre del proyecto y configurará
+          una estructura básica para tu proyecto Astro.
+        </p>
+      </section>
+      <section>
+        <h2>Paso 3: Migrar archivos HTML</h2>
+        <p>
+          Copia todos los archivos HTML de tu proyecto anterior y pégalo en la
+          carpeta <code>src</code> de tu nuevo proyecto Astro.
+        </p>
+        <p>
+          Si tienes archivos HTML en subcarpetas, mantén la misma estructura de
+          carpetas en la carpeta <code>src</code> de tu proyecto Astro.
+        </p>
+      </section>
+      <section>
+        <h2>Paso 4: Convertir archivos HTML a componentes Astro</h2>
+        <p>
+          Abre cada archivo HTML en la carpeta <code>src</code> y renómbralo con
+          la extensión <code>.astro</code>.
+        </p>
+
+        <p>
+          Astro utiliza una sintaxis similar a JSX, por lo que puedes utilizar
+          JavaScript dentro de tus componentes Astro para lógica adicional si es
+          necesario.
+        </p>
+      </section>
+      <section>
+        <h2>Paso 5: Revisar y ajustar</h2>
+        <p>
+          Una vez que hayas convertido todos los archivos HTML a componentes
+          Astro, revisa tu proyecto para asegurarte de que todo se vea y
+          funcione correctamente.
+        </p>
+        <p>
+          Ajusta cualquier referencia a rutas de archivos, como enlaces a hojas
+          de estilo CSS o imágenes, para que apunten a las ubicaciones correctas
+          en tu proyecto Astro.
+        </p>
+      </section>
+      <section>
+        <h2>Paso 6: Compilar y ejecutar tu proyecto Astro</h2>
+        <p>
+          Ejecuta el siguiente comando en tu línea de comandos para compilar y
+          ejecutar tu proyecto Astro:
+        </p>
+        <pre><code>npm run dev</code></pre>
+        <p>
+          Esto compilará tu proyecto y lo ejecutará en un servidor de desarrollo
+          local.
+        </p>
+        <p>
+          Abre tu navegador web y ve a <code>http://localhost:3000</code> para
+          ver tu proyecto Astro en acción.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
