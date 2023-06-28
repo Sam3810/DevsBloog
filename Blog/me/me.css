@@ -63,11 +63,12 @@ h1 {
     display: block;
     white-space: nowrap;
     border-right: 3px solid;
-    width: 11ch;
+    width: 10ch;
+    padding-right: 15px;
     text-align: center;
     font-size: 40px;
     margin: 0 auto 0 auto;
-    animation: typing 2s steps(11), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(10), blink .5s infinite step-end alternate;
     overflow: hidden;
 }
 
