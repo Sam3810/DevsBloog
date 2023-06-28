@@ -19,9 +19,9 @@ body {
 }
 
 main {
-  margin: 35px 10px 30px 10px;
+  padding: 0 10px 0 10px;
   max-width: 800px;
-  font-size: 1rem;
+  font-size: 17px;
   margin: auto;
 }
 
@@ -61,6 +61,29 @@ h1 {
 
 h2 {
   margin-top: 60px;
+}
+
+code {
+  background-color: #292d35;
+  padding: 5px;
+  line-height: normal;
+  display: inline-block;
+  color: rgb(241,241,241);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  font-family: monospace;
+  margin: 5px;
+  white-space: wrap;
+  font-size: 17px;
+}
+
+p {
+  max-width: 90ch;
+}
+
+pre code {
+  margin: 0.3rem 0;
+  padding: 0.5rem;
 }
 
 .nav__a {
@@ -151,22 +174,4 @@ h2 {
     flex-direction: column;
     align-items: end;
   }
-}
-
-p {
-  max-width: 90ch;
-}
-
-code {
-  background-color: #666666;
-  padding: 0.3rem;
-  line-height: normal;
-  display: inline-block;
-  border-radius: 0.5rem;
-  font-family: "Courier New", Courier, monospace;
-}
-
-pre code {
-  margin: 0.3rem 0;
-  padding: 0.5rem;
 }

@@ -69,6 +69,20 @@ main {
     margin: 30px 10px 15px 10px;
 }
 
+code {
+    background-color: #292d35;
+    padding: 5px;
+    line-height: normal;
+    display: inline-block;
+    color: rgb(241,241,241);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    font-family: monospace;
+    margin: 5px;
+    white-space: wrap;
+    font-size: 17px;
+}
+
 .nav__a {
     color: rgb(241, 241, 241);
 }
