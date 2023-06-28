@@ -34,7 +34,7 @@ header {
 }
 
 section {
-    max-width: 1200px;
+    max-width: 800px;
 }
 
 ul {
@@ -95,7 +95,7 @@ h1 {
 #div__bienvenida {
     display: grid;
     place-items: center;
-    max-width: 1200px;
+    max-width: 800px;
     padding: 50px 10px 15px 10px;
     text-align: center;
 }
