@@ -73,8 +73,9 @@ code {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
   font-family: monospace;
   margin: 5px;
-  white-space: wrap;
+  white-space: pre-wrap;
   font-size: 17px;
+  border: 1px solid rgb(53, 53, 53);
 }
 
 p {
