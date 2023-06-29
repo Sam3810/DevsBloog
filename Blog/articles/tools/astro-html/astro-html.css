@@ -13,7 +13,7 @@
 body {
   margin: 0;
   background-color: rgb(29, 36, 48);
-  color: #fff;
+  color: rgb(241, 241, 241);
   box-sizing: border-box;
   line-height: 2;
 }
@@ -56,11 +56,9 @@ a {
 }
 
 h1 {
-  font-size: 30px;
-}
-
-h2 {
-  margin-top: 60px;
+  font-size: 35px;
+  margin: 0;
+  margin-top: 30px;
 }
 
 code {
@@ -138,6 +136,17 @@ pre code {
 
 .image-container {
   max-width: 400px;
+}
+
+#info {
+  display: flex;
+  margin: 0 auto 40px auto;
+  color: rgb(241,241,241);
+  gap: 25px;
+}
+
+#info p {
+  margin: 0;
 }
 
 /*Responsive*/
