@@ -89,14 +89,14 @@ h1 {
     color: rgb(241, 241, 241);
     text-align: center;
     background-color: rgb(26, 31, 41);
-    box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.6);
 }
 
 #div__bienvenida {
     display: grid;
     place-items: center;
     max-width: 800px;
-    padding: 50px 10px 15px 10px;
+    padding: 50px 10px 20px 10px;
     text-align: center;
 }
 
