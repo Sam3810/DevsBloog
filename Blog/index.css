@@ -102,13 +102,10 @@ h1 {
 
 #div__bienvenida img {
     max-width: 150px;
-    border-radius: 50%;
-    border: 5px solid rgb(255, 239, 146);
     transition-duration: 0.3s;
-}
-
-#div__bienvenida img:hover {
-    border: 5px solid rgb(255, 222, 90);
+    border-radius: 50%;
+    background-color: rgb(27, 32, 42);
+    border: 1px solid rgb(33, 40, 53);
 }
 
 /*Content*/
