@@ -70,7 +70,7 @@ code {
   border-radius: 0.5rem;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
   font-family: monospace;
-  margin: 5px;
+  margin: 5px 0px;
   white-space: pre-wrap;
   font-size: 17px;
   border: 1px solid rgb(53, 53, 53);
