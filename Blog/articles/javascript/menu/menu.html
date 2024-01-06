@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="category" content="Programacion">
+    <meta name="author" content="Samuel Vanegas Bueno">
+    <meta name="audience" content="all">
+    <meta name="language" content="spanish">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Introduccion de Git para nuevos desarrolladores">
+    <meta name="keywords" content="JavaScript, Programacion, Development">
+    <link rel="icon" href="/img/me.png">
+    <link rel="stylesheet" href="menu.css">
+    <title>Uso de Switch</title>
+</head>
+<body>
+    <header>
+        <section id="header__section">
+            <a href="/index.html"><img id="logo" src="/img/me.png" alt="Logo de Samuel Vanegas Bueno"></a>
+            <button class="abrir-menu">
+                <img src="/img/menu.svg" alt="Open">
+            </button>
+            <nav class="nav">
+                <button class="cerrar-menu">
+                    <img src="/img/cancel.svg" alt="Close">
+                </button>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/Sam3810/DevsBloog/blob/main/Blog/articles/javascript/menu/menu.html" class="nav__a">Edita este articulo</a></li>
+                    <li><a href="/me/me.html" class="nav__a" >Sobre mi</a></li>
+                    <li><a target="_blank" href="https://github.com/Sam3810" class="nav__a">GitHub</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section id="section__content">
+            <div id="div__content">
+                <h1>Menu hamburguesa</h1>
+                <div id="info">
+                    <p>Autor: Samuel Vanegas Bueno</p>
+                    <div id="point"></div>
+                    <p>6 Julio 2023</p>
+                </div>
+
+                <div class="image-container-portada">
+                    <img src="/img/menu.jpg" alt="Imagen del menu hamburguesa">
+                </div>
+
+                <p>Probablemente cuando creas tu web siempre le añades un <code>header</code> para que el usuario pueda navegar por la web sin mayor esfuerzo, normalmente este header esta posicionado horizontalmente y cuando se revisa en mobile, ¡se rompe! para solucionar esto hoy te enseñare a crear un menu hamburguesa.</p>
+                <h2>HTML</h2>
+                <p>Comencemos por el HTML, lo primero que debemos hacer es añadir 2 botones, uno que servira para abrirlo y el otro para cerrarlo, como probablemente tu <code>header</code> contenga una etiqueta <code>nav</code> debes añadir el boton de cerrar el menu dentro de este <code>nav</code> y el boton de abrir solamente lo dejas dentro del header.</p>
+                <h2>CSS</h2>
+                <p>Para el CSS vamos a llamar a los 2 botones anteriores de abrir y cerrar y les daremos un <code>display none</code>, ahora debemos crear una <code>media querie</code> a la cual le daremos un <code>max-width</code> del valor que deseemos y dentro de esta le daremos a los botones un <code>display block</code>, seguido de esto cambiaremos el estilo de tu <code>nav</code> como gustes, puedes tomar como referencia el siguiente codigo:</p>
+                <pre><code>.nav { <br> display: flex; <br> align-items: end; <br> flex-direction: column; <br> padding-top: 20px; <br> padding-right: 10px; <br> gap: 10px; <br> border-radius: 10px; <br> position: absolute; <br> top: 0; <br> right: 0; <br> bottom: 0; <br> height: 100vh; <br> background-color: black; <br> box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); <br> visibility: hidden; <br> opacity: 0; <br>}
+                </code></pre>
+                <p><strong>Asegurate de que tengas <code>visibility: hidden;</code> y <code>opacity: 0;</code></strong> en el CSS del <code>nav</code> en la <code>media querie</code>, ahora debes crear una nueva clase, con el nombre que gustes y le vas a escribir el siguiente codigo:</p>
+                <pre><code>.class { <br> visibility: visible; <br> opacity: 1; <br>}</code></pre>
+                <p>Esta clase la utilizaremos mas adelante.</p>
+                <h2>JavaScript</h2>
+                <p>Por ultimo, coronamos con JavaScript, lo que debes hacer es escribir el siguiente codigo:</p>
+                <pre><code>let nav = document.querySelector('class o id') <br>let abrir = document.querySelector('class o id') <br>let cerrar = document.querySelector('class o id') <br> <br>abrir.addEventListener('click', () => { <br> nav.classList.add('classCSS') <br>}) <br> <br>cerrar.addEventListener('click', () => { <br> nav.classList.remove('classCSS') <br>})</code></pre>
+                <p>En la parte donde dice <code>class</code> o <code>id</code> escribes el que la hayas añadido a los botones, y en donde dice <code>classCSS</code> es la clase que te dije que crearas en el CSS hace un momento, con esto hecho tu menu hamburguesa deberia funcionar, si hay algun problema por favor notificalo en el <a target="_blank" href="https://github.com/Sam3810/DevsBloog">repositorio</a> de GitHub.</p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="menu.js"></script>
+</html>
